@@ -1,0 +1,9 @@
+Write the funniest one-line excuse a robot vacuum gives for missing a spot, 140 characters or fewer.
+
+The line must:
+- be a genuine excuse from the robot vacuum itself (first person, the vacuum talking),
+- be rooted in the vacuum's own world (its map, sensors, dock, battery),
+- land on the first read with a clean twist at the end,
+- make a tired homeowner laugh out loud, not just smile politely.
+
+Draft a few candidates, pick the strongest, then write a Python 3 stdlib-only program (main.py) that writes the chosen line to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output/entry.txt). Test it locally and check the output is one line of 1-140 characters, not only whitespace.
